@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary_color">#3949AB</color>
+    <color name="primary_dark">#283593</color>
+    <color name="background_color">#F5F5F5</color>
+    <color name="surface_color">#FFFFFF</color>
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    <color name="button_text">#FFFFFF</color>
+    <color name="note_background">#E8EAF6</color>
+    <!-- Кольори станів нотатки -->
+    <color name="note_normal">#E8EAF6</color> <!-- Звичайна (світло-синя) -->
+    <color name="note_important">#FFCDD2</color> <!-- Важлива (світло-червона) -->
+    <color name="note_completed">#C8E6C9</color> <!-- Виконана (світло-зелена) -->
+
+    <string-array name="note_statuses">
+        <item>Звичайна</item>
+        <item>Важлива</item>
+        <item>Виконана</item>
+    </string-array>
+</resources>

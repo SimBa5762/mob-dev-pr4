@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary_color">#5C6BC0</color>
+    <color name="primary_dark">#3949AB</color>
+    <color name="background_color">#121212</color>
+    <color name="surface_color">#1E1E1E</color>
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#B0B0B0</color>
+    <color name="button_text">#FFFFFF</color>
+    <color name="note_background">#2C3140</color>
+    <!-- Приглушені кольори станів нотатки для темного режиму -->
+    <color name="note_normal">#2C2C2C</color>
+    <color name="note_important">#4A2323</color>
+    <color name="note_completed">#1E3B20</color>
+
+
+</resources>
+

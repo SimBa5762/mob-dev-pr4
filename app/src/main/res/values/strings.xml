@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Мої нотатки</string>
+    <string name="screen_title">Облік нотаток</string>
+    <string name="note_hint">Введіть текст нотатки</string>
+    <string name="add_note">Додати нотатку</string>
+    <string name="clear_notes">Очистити</string>
+    <string name="empty_notes">Нотаток поки немає</string>
+    <plurals name="notes_count_plural">
+        <!-- Для чисел, що закінчуються на 1 (крім 11): 1, 21, 31... -->
+        <item quantity="one">%1$d нотатка</item>
+        <!-- Для чисел, що закінчуються на 2, 3, 4 (крім 12, 13, 14): 2, 3, 24... -->
+        <item quantity="few">%1$d нотатки</item>
+        <!-- Для чисел, що закінчуються на 0, 5-9, 11-19: 5, 11, 20... -->
+        <item quantity="many">%1$d нотаток</item>
+        <!-- Запасний варіант (обов'язковий для компілятора) -->
+        <item quantity="other">%1$d нотаток</item>
+    </plurals>
+</resources>

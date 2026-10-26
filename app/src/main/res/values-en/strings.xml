@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My Notes</string>
+    <string name="screen_title">Notes Tracking</string>
+    <string name="note_hint">Enter note text</string>
+    <string name="add_note">Add Note</string>
+    <string name="clear_notes">Clear</string>
+    <string name="empty_notes">No notes yet</string>
+    <string name="notes_count">Notes count: %1$d</string>
+</resources>

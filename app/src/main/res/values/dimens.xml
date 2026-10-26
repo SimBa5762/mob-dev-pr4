@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="screen_padding">16dp</dimen>
+    <dimen name="element_spacing">10dp</dimen>
+    <dimen name="title_size">24sp</dimen>
+    <dimen name="body_size">16sp</dimen>
+    <dimen name="button_height">52dp</dimen>
+    <dimen name="note_padding">14dp</dimen>
+</resources>

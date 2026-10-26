@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/screen_padding"
+    android:background="@color/background_color">
+
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/screen_title"
+        android:textSize="@dimen/title_size"
+        android:textColor="@color/text_primary"
+        android:textStyle="bold"
+        android:layout_marginBottom="@dimen/element_spacing" />
+
+    <EditText
+        android:id="@+id/noteInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/note_hint"
+        android:textSize="@dimen/body_size"
+        android:padding="@dimen/note_padding"
+        android:background="@color/surface_color"
+        android:layout_marginBottom="@dimen/element_spacing" />
+    <Spinner
+        android:id="@+id/statusSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:entries="@array/note_statuses" />
+    <Button
+        android:id="@+id/addButton"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_height"
+        android:text="@string/add_note"
+        android:textColor="@color/button_text"
+        android:backgroundTint="@color/primary_color"
+        android:layout_marginBottom="@dimen/element_spacing" />
+
+    <TextView
+        android:id="@+id/countText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/empty_notes"
+        android:textSize="@dimen/body_size"
+        android:textColor="@color/text_secondary"
+        android:layout_marginBottom="@dimen/element_spacing" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:id="@+id/notesContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/clearButton"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_height"
+        android:text="@string/clear_notes"
+        android:textColor="@color/button_text"
+        android:backgroundTint="@color/primary_dark" />
+
+</LinearLayout>
